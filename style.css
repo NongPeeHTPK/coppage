@@ -18,6 +18,7 @@ body{
     display: flex;
     align-items: center;
     padding: 0 30px;
+    padding-top: 30px;
     justify-content: space-between;
 }
 .side-bar-top-left{
@@ -32,7 +33,6 @@ body{
     border-radius: 8px;
     transition: transform 0.3 ease-in-out;
     transform-origin: center center;
-    cursor: pointer;
 }
 .side-bar-top-left:hover{
         transform: scale(1.05);
@@ -100,4 +100,62 @@ body{
 }
 .side-bar-contact a{
     color: rgb(211, 255, 144);
+}
+.content{
+    justify-items: center;
+    margin-left: 500px;
+}
+.content-image-one{
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    transition: transform 0.3 ease-in-out;
+    transform-origin: center center;
+}
+.content-image-one img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.content-image-one img:hover{
+    transform: scale(1.05);
+}
+.We-escalate-transfer-efficiency-and-productivity{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-image-two{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.content-image-two img{
+    width: 80px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3 ease-in-out;
+    transform-origin: center center;
+}
+.content-image-two img:hover{
+    transform: scale(1.05);
+}
+.Get-more-done-in-a-week{
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+.Get-more-done-in-a-week p{
+    color: #676767;
+    margin-top: 10px;
 }
