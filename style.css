@@ -1,0 +1,103 @@
+body{
+    font-family: 'MyCustomFont', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side-bar{
+    width: 500px;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(57, 82, 0);
+}
+.side-bar-top{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+.side-bar-top-left{
+    width: 80px;
+    height: 35px;
+}
+.side-bar-top-left img{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3 ease-in-out;
+    transform-origin: center center;
+    cursor: pointer;
+}
+.side-bar-top-left:hover{
+        transform: scale(1.05);
+}
+.side-bar-top-right button{
+    background-color: rgb(211, 255, 144);
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    border: 0px;
+    transition: transform 0.3 ease-in-out;
+    transform-origin: center center;
+    cursor: pointer;
+}
+.side-bar-top-right:hover{
+        transform: scale(1.05);
+}
+.side-bar-content{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.side-bar-content-center{
+    color: #ffffff;
+    padding: 0 30px;
+}
+.side-bar-content-center-p{
+    color: #c1c1c1;
+}
+.side-bar-offer{
+    color: rgb(211, 255, 144);
+    width: 500px;
+    height: 200px;
+    padding: 0 30px;
+}
+.side-bar-offer-ing{
+    padding-bottom: 20px;
+}
+.side-bar-offer-image{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.side-bar-offer-image img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3 ease-in-out;
+    transform-origin: center center;
+    cursor: pointer;
+}
+.side-bar-offer-image img:hover{
+    transform: scale(1.05);
+}
+.side-bar-contact{
+    width: 500px;
+    height: 30px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.side-bar-contact a{
+    color: rgb(211, 255, 144);
+}
